@@ -328,16 +328,16 @@
             <key>Add</key>
             <array>
                 <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.0 | Lilu.kext</string>
+                    <string></string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/Lilu</string>
+                    <key>Arch</key>
+                    <string>Any</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -346,16 +346,16 @@
                     <string>Contents/Info.plist</string>
                 </dict>
                 <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.8</string>
+                    <string></string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/VirtualSMC</string>
+                    <key>Arch</key>
+                    <string>Any</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -364,16 +364,16 @@
                     <string>Contents/Info.plist</string>
                 </dict>
                 <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
                     <key>BundlePath</key>
-                    <string>Airportitlwm.kext</string>
+                    <string>AirportBrcmFixup.kext</string>
                     <key>Comment</key>
-                    <string>V2.0.0 | Intel Wi-Fi driver</string>
+                    <string></string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/Airportitlwm</string>
+                    <string>Contents/MacOS/AirportBrcmFixup</string>
+                    <key>Arch</key>
+                    <string>Any</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -382,88 +382,16 @@
                     <string>Contents/Info.plist</string>
                 </dict>
                 <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
                     <key>BundlePath</key>
-                    <string>IntelBluetoothFirmware.kext</string>
+                    <string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcmNIC_Injector.kext</string>
                     <key>Comment</key>
-                    <string>V2.0.1</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/IntelBluetoothFirmware</string>
-                    <key>MaxKernel</key>
                     <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>BlueToolFixup.kext</string>
-                    <key>Comment</key>
-                    <string>V2.6.1</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/BlueToolFixup</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>IntelMausi.kext</string>
-                    <key>Comment</key>
-                    <string>V1.0.7 | IntelMausi.kext</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/IntelMausi</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>NVMeFix.kext</string>
-                    <key>Comment</key>
-                    <string>V1.0.9 | NVMeFix.kext</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/NVMeFix</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>USBPorts.kext</string>
-                    <key>Comment</key>
-                    <string>V1.0 | USBPorts.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
                     <string></string>
+                    <key>Arch</key>
+                    <string>Any</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -472,52 +400,16 @@
                     <string>Contents/Info.plist</string>
                 </dict>
                 <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>VerbStub.kext</string>
-                    <key>Comment</key>
-                    <string>V1.0.4</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/VerbStub</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>WhateverGreen.kext</string>
-                    <key>Comment</key>
-                    <string>V1.5.7 | WhateverGreen.kext</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/WhateverGreen</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.9 | AppleALC.kext</string>
+                    <string></string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AppleALC</string>
+                    <key>Arch</key>
+                    <string>Any</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -526,16 +418,52 @@
                     <string>Contents/Info.plist</string>
                 </dict>
                 <dict>
+                    <key>BundlePath</key>
+                    <string>IntelMausi.kext</string>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/IntelMausi</string>
                     <key>Arch</key>
                     <string>Any</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>BundlePath</key>
+                    <string>NVMeFix.kext</string>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/NVMeFix</string>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
                     <key>BundlePath</key>
                     <string>SMCDellSensors.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.7 | SMCDellSensors.kext</string>
+                    <string></string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/SMCDellSensors</string>
+                    <key>Arch</key>
+                    <string>Any</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -544,16 +472,70 @@
                     <string>Contents/Info.plist</string>
                 </dict>
                 <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>SMCProcessor.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.7 | SMCProcessor.kext</string>
+                    <string></string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/SMCProcessor</string>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>BundlePath</key>
+                    <string>USBPorts.kext</string>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string></string>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>BundlePath</key>
+                    <string>VerbStub.kext</string>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/VerbStub</string>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>BundlePath</key>
+                    <string>WhateverGreen.kext</string>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/WhateverGreen</string>
+                    <key>Arch</key>
+                    <string>Any</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
