@@ -292,6 +292,8 @@
                 <dict>
                     <key>layout-id</key>
                     <data>QgAAAA==</data>
+                    <key>device_type</key>
+                    <string>Multimedia controller</string>
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
