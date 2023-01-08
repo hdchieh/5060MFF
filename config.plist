@@ -279,21 +279,21 @@
                 <dict>
                     <key>AAPL,slot-name</key>
                     <string>Internal@0,28,0/0,0</string>
-                    <key>device_type</key>
-                    <string>Network controller</string>
-                    <key>model</key>
-                    <string>BCM43224 802.11a/b/g/n</string>
                     <key>brcmfx-country</key>
                     <string>#a</string>
                     <key>brcmfx-driver</key>
                     <string>2</string>
+                    <key>device_type</key>
+                    <string>Network controller</string>
+                    <key>model</key>
+                    <string>BCM43224 802.11a/b/g/n</string>
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
                 <dict>
-                    <key>layout-id</key>
-                    <data>QgAAAA==</data>
                     <key>device_type</key>
                     <string>Multimedia controller</string>
+                    <key>layout-id</key>
+                    <data>QgAAAA==</data>
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
@@ -343,16 +343,16 @@
             <key>Add</key>
             <array>
                 <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string></string>
+                    <string>V1.6.3</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/Lilu</string>
-                    <key>Arch</key>
-                    <string>Any</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -361,16 +361,16 @@
                     <string>Contents/Info.plist</string>
                 </dict>
                 <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string></string>
+                    <string>V1.3.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/VirtualSMC</string>
-                    <key>Arch</key>
-                    <string>Any</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -379,16 +379,16 @@
                     <string>Contents/Info.plist</string>
                 </dict>
                 <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>AirportBrcmFixup.kext</string>
                     <key>Comment</key>
-                    <string></string>
+                    <string>V2.1.6</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AirportBrcmFixup</string>
-                    <key>Arch</key>
-                    <string>Any</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -402,7 +402,7 @@
                     <key>BundlePath</key>
                     <string>BlueToolFixup.kext</string>
                     <key>Comment</key>
-                    <string>V2.6.1</string>
+                    <string>V2.6.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -415,16 +415,16 @@
                     <string>Contents/Info.plist</string>
                 </dict>
                 <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcmNIC_Injector.kext</string>
                     <key>Comment</key>
-                    <string></string>
+                    <string>V1.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
                     <string></string>
-                    <key>Arch</key>
-                    <string>Any</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -433,16 +433,16 @@
                     <string>Contents/Info.plist</string>
                 </dict>
                 <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string></string>
+                    <string>V1.7.8</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AppleALC</string>
-                    <key>Arch</key>
-                    <string>Any</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -451,16 +451,16 @@
                     <string>Contents/Info.plist</string>
                 </dict>
                 <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>IntelMausi.kext</string>
                     <key>Comment</key>
-                    <string></string>
+                    <string>V1.0.7</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/IntelMausi</string>
-                    <key>Arch</key>
-                    <string>Any</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -469,16 +469,16 @@
                     <string>Contents/Info.plist</string>
                 </dict>
                 <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>NVMeFix.kext</string>
                     <key>Comment</key>
-                    <string></string>
+                    <string>V1.1.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/NVMeFix</string>
-                    <key>Arch</key>
-                    <string>Any</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -487,16 +487,16 @@
                     <string>Contents/Info.plist</string>
                 </dict>
                 <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>SMCDellSensors.kext</string>
                     <key>Comment</key>
-                    <string></string>
+                    <string>V1.3.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/SMCDellSensors</string>
-                    <key>Arch</key>
-                    <string>Any</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -505,16 +505,16 @@
                     <string>Contents/Info.plist</string>
                 </dict>
                 <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>SMCProcessor.kext</string>
                     <key>Comment</key>
-                    <string></string>
+                    <string>V1.3.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/SMCProcessor</string>
-                    <key>Arch</key>
-                    <string>Any</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -523,16 +523,16 @@
                     <string>Contents/Info.plist</string>
                 </dict>
                 <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>USBPorts.kext</string>
                     <key>Comment</key>
-                    <string></string>
+                    <string>V1.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
                     <string></string>
-                    <key>Arch</key>
-                    <string>Any</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -541,16 +541,16 @@
                     <string>Contents/Info.plist</string>
                 </dict>
                 <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>VerbStub.kext</string>
                     <key>Comment</key>
-                    <string></string>
+                    <string>V1.0.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/VerbStub</string>
-                    <key>Arch</key>
-                    <string>Any</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -559,16 +559,16 @@
                     <string>Contents/Info.plist</string>
                 </dict>
                 <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string></string>
+                    <string>V1.6.3</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/WhateverGreen</string>
-                    <key>Arch</key>
-                    <string>Any</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -592,6 +592,8 @@
                     <string></string>
                     <key>MinKernel</key>
                     <string></string>
+                    <key>Strategy</key>
+                    <string>Disable</string>
                 </dict>
             </array>
             <key>Emulate</key>
@@ -883,6 +885,8 @@
                 <false/>
                 <key>AppleXcpmForceBoost</key>
                 <false/>
+                <key>CustomPciSerialDevice</key>
+                <false/>
                 <key>CustomSMBIOSGuid</key>
                 <false/>
                 <key>DisableIoMapper</key>
@@ -894,6 +898,8 @@
                 <key>ExtendBTFeatureFlags</key>
                 <false/>
                 <key>ExternalDiskIcons</key>
+                <false/>
+                <key>ForceAquantiaEthernet</key>
                 <false/>
                 <key>ForceSecureBootScheme</key>
                 <false/>
@@ -938,6 +944,8 @@
                 <integer>0</integer>
                 <key>HibernateMode</key>
                 <string>None</string>
+                <key>HibernateSkipsPicker</key>
+                <false/>
                 <key>HideAuxiliary</key>
                 <false/>
                 <key>LauncherOption</key>
@@ -973,8 +981,8 @@
                 <integer>0</integer>
                 <key>DisplayLevel</key>
                 <integer>2147483650</integer>
-                <key>SerialInit</key>
-                <false/>
+                <key>LogModules</key>
+                <string></string>
                 <key>SysReport</key>
                 <false/>
                 <key>Target</key>
@@ -1003,12 +1011,8 @@
             </array>
             <key>Security</key>
             <dict>
-                <key>AllowNvramReset</key>
-                <true/>
                 <key>AllowSetDefault</key>
                 <true/>
-                <key>AllowToggleSip</key>
-                <false/>
                 <key>ApECID</key>
                 <integer>0</integer>
                 <key>AuthRestart</key>
@@ -1034,6 +1038,40 @@
                 <key>Vault</key>
                 <string>Optional</string>
             </dict>
+            <key>Serial</key>
+            <dict>
+                <key>Custom</key>
+                <dict>
+                    <key>BaudRate</key>
+                    <integer>115200</integer>
+                    <key>ClockRate</key>
+                    <integer>1843200</integer>
+                    <key>DetectCable</key>
+                    <false/>
+                    <key>ExtendedTxFifoSize</key>
+                    <integer>64</integer>
+                    <key>FifoControl</key>
+                    <integer>7</integer>
+                    <key>LineControl</key>
+                    <integer>3</integer>
+                    <key>PciDeviceInfo</key>
+                    <data>/w==</data>
+                    <key>RegisterAccessWidth</key>
+                    <integer>8</integer>
+                    <key>RegisterBase</key>
+                    <integer>1016</integer>
+                    <key>RegisterStride</key>
+                    <integer>1</integer>
+                    <key>UseHardwareFlowControl</key>
+                    <false/>
+                    <key>UseMmio</key>
+                    <false/>
+                </dict>
+                <key>Init</key>
+                <false/>
+                <key>Override</key>
+                <false/>
+            </dict>
             <key>Tools</key>
             <array>
                 <dict>
@@ -1047,6 +1085,8 @@
                     <true/>
                     <key>Flavour</key>
                     <string>Auto</string>
+                    <key>FullNvramAccess</key>
+                    <false/>
                     <key>Name</key>
                     <string>OpenShell.efi</string>
                     <key>Path</key>
@@ -1106,8 +1146,6 @@
                     <string>boot-args</string>
                 </array>
             </dict>
-            <key>LegacyEnable</key>
-            <false/>
             <key>LegacyOverwrite</key>
             <false/>
             <key>LegacySchema</key>
@@ -1210,6 +1248,12 @@
                 <integer>0</integer>
                 <key>KeySubsequentDelay</key>
                 <integer>5</integer>
+                <key>PointerDwellClickTimeout</key>
+                <integer>0</integer>
+                <key>PointerDwellDoubleClickTimeout</key>
+                <integer>0</integer>
+                <key>PointerDwellRadius</key>
+                <integer>0</integer>
                 <key>PointerPollMask</key>
                 <integer>-1</integer>
                 <key>PointerPollMax</key>
@@ -1257,6 +1301,8 @@
                     <string>AudioDxe.efi</string>
                     <key>Enabled</key>
                     <true/>
+                    <key>LoadEarly</key>
+                    <false/>
                     <key>Path</key>
                     <string>AudioDxe.efi</string>
                 </dict>
@@ -1267,6 +1313,8 @@
                     <string>HfsPlus.efi</string>
                     <key>Enabled</key>
                     <true/>
+                    <key>LoadEarly</key>
+                    <false/>
                     <key>Path</key>
                     <string>HfsPlus.efi</string>
                 </dict>
@@ -1277,6 +1325,8 @@
                     <string>OpenCanopy.efi</string>
                     <key>Enabled</key>
                     <true/>
+                    <key>LoadEarly</key>
+                    <false/>
                     <key>Path</key>
                     <string>OpenCanopy.efi</string>
                 </dict>
@@ -1287,6 +1337,8 @@
                     <string>OpenRuntime.efi</string>
                     <key>Enabled</key>
                     <true/>
+                    <key>LoadEarly</key>
+                    <false/>
                     <key>Path</key>
                     <string>OpenRuntime.efi</string>
                 </dict>

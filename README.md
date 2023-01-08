@@ -2,6 +2,7 @@
 
 成功运行 `Monterey 12.3`，三卡（ Intel网卡 ） 、HDMI、睡眠、AirDrop正常，暂时完美。
 
+[1/9/2023] Opencore8.8 MacOS Ventrua 13.1
 [2022-03-25] 经测试，5060MFF (IPCFL-BS/EK) 和 7060MFF标压版（IPCFL-BS 65W）均可正常使用。
 
 ## -1. TL; DL 太长不看版
